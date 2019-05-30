@@ -11,8 +11,14 @@ body{
 }
 
 .bottom{
-    display: flex;
-    justify-content: center;
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    color: #b3a398;
+    font-size:12px;
+    padding-top:38px;
+    text-align: center;
+    height: 50px
+    
     }
 
 .name{
@@ -27,6 +33,7 @@ body{
 .container{
     width: 960px;
     margin: 0 auto;
+    min-height: calc(100vh - 70px);
 }
 
 #headshot{
