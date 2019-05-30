@@ -77,17 +77,16 @@ body{
 
 .portfolio{
     float: right;
-    padding:0 25px;
+    padding:10px 25px 0px 25px;
     border-left: 2px #f5f5f5 solid;
 }
 .contact{
     float: right;
-    padding-left:25px;
-    padding-right: 0px;
+    padding:10px 0px 0px 25px;
     border-left: 2px #f5f5f5 solid;
 }
 .about{
     float: right;
-    padding:0 25px;
+    padding:10px 25px 0px 25px;
         
 }
