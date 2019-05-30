@@ -25,7 +25,6 @@ body{
     color: #ffffff;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 20px;
     padding: 20px 0;
     width: 300px;
 }
@@ -50,4 +49,14 @@ body{
     border: 2px solid #dedede;
     width: 90%;
     margin: 0 auto;
+}
+
+.link {
+    color: #c3cdd2;
+    font-size: 15px;
+    text-decoration: none;
+   }
+
+#top {
+    background-color: #ffffff;
 }
