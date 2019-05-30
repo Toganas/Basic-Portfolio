@@ -1,7 +1,23 @@
+h1, h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 body{
     background-image: url("../images/sakura.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 .bottom{
     width:100%;
+    height: 50px;
     border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align:center;
     }
+
+.name{
+    background-color: #4aaaa6;
+    padding: 10 px;
+    color: #ffffff;
+    margin: 0px;
+}
