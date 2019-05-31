@@ -1,6 +1,7 @@
 *{
     box-sizing:border-box;
     }
+
 h1, h2{
     font-family: 'Georgia', Times, "Times New Roman", serif;
 }
@@ -36,7 +37,6 @@ body{
 .container{
     width: 960px;
     margin: 0 auto;
-    min-height: calc(100vh - 70px);
     background-color: #ffffff;
     border: 1px solid #FFD8D6;
 }
@@ -45,8 +45,11 @@ body{
     width: 200px;
 }
 
+/* box around text and pictures */
+
 .title {
     color: #4aaaa6;
+    margin-left: 48px;
 }
 
 .divider {
@@ -54,6 +57,8 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+/* Links at top of page */
 
 .link {
     margin-top: 20px;
@@ -66,7 +71,7 @@ body{
     background-color: #ffffff;
     border-bottom: 2px #d7d7d7 solid;
     margin-bottom: 20px;
-    height:70px;
+    height:69.5px;
 }
 
 .boxes{
@@ -74,19 +79,33 @@ body{
     margin: 0 auto;
 }
 
-
 .portfolio{
     float: right;
     padding:10px 25px 0px 25px;
     border-left: 2px #f5f5f5 solid;
 }
+
 .contact{
     float: right;
     padding:10px 0px 0px 25px;
     border-left: 2px #f5f5f5 solid;
 }
+
 .about{
     float: right;
     padding:10px 25px 0px 25px;
-        
-}
+        }
+
+.form {
+    margin-top: 20px;
+    margin-left: 48px;
+    }
+
+#submit {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #4aaaa6;
+    border: 0px;
+    padding: 5px 15px;
+    color: white;
+    }
