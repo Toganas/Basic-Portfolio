@@ -248,9 +248,31 @@ body{
     font-size:12px;
     text-align: center;
     height: 50px;
-    position: fixed;
-    left:0;
-    bottom:0;
+    /* position: fixed; */
+    /* left:0; */
+    /* bottom:0; */
     width: 100%;
-    z-index:9999;
+    /* z-index:9999; */
     }
+
+    /* Another attempt at a sticky footer */
+
+    html, body {
+        height:100%
+    }
+    
+    body {
+    display: flex;
+    flex-direction:column
+    }
+    
+    .container { flex: 1 0 auto}
+    .bottom {
+        flex-shrink:0;
+    }
+
+    .content {
+        height: 850px;
+        margin-bottom: 25px;
+    }
+    
