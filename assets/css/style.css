@@ -151,3 +151,18 @@ body{
     left: 50px;
     max-width: 850px;
 }
+
+/* portfolio page */
+
+.boxes {
+    text-align: center;
+}
+
+.absolute {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #FFD8D6;
+    position:absolute;
+    align:center;
+}
