@@ -176,6 +176,18 @@ body{
     position: absolute;
 }
 
+#pic3{
+    left: 50px;
+    position: absolute;
+    top: 325px;
+}
+
+#pic4{
+    position: absolute;
+    top:325px;
+    left:275px;
+}
+
 /* portfolio picture text */
 
 #hangman{
@@ -196,4 +208,23 @@ body{
     background: #4aaaa6;
     color: white;
     padding: 5px 59px;
+}
+
+#trivia{
+    z-index: 500000;
+    left: 50px;
+    top: 485px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 57px;
+}
+
+#rutgers{
+    left: 275px;
+    position: absolute;
+    top: 485px;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 29px;
 }
