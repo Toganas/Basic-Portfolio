@@ -162,6 +162,7 @@ body{
     background-color: #ffffff;
     border: 1px solid #FFD8D6;
     position:absolute;
+    height:850px;
     }
 
 /* portfolio images */
@@ -172,20 +173,26 @@ body{
 }
 
 #pic2{
-    left: 275px;
+    left: 370px;
     position: absolute;
 }
 
 #pic3{
     left: 50px;
     position: absolute;
-    top: 325px;
+    top: 350px;
 }
 
 #pic4{
     position: absolute;
-    top:325px;
-    left:275px;
+    top: 350px;
+    left: 370px;
+}
+
+#pic5{
+    bottom: 50px;
+    position: absolute;
+    left: 50px;
 }
 
 /* portfolio picture text */
@@ -193,38 +200,47 @@ body{
 #hangman{
     z-index: 500000;
     left: 50px;
-    top: 260px;
+    top: 265px;
     position: absolute;
     background: #4aaaa6;
     color: white;
-    padding: 5px 65.5px;
+    padding: 5px 103px;
 }
 
 #rpg{
     z-index: 500000;
-    left: 275px;
-    top: 260px;
+    left: 370px;
+    top: 265px;
     position: absolute;
     background: #4aaaa6;
     color: white;
-    padding: 5px 59px;
+    padding: 5px 96px;
 }
 
 #trivia{
     z-index: 500000;
     left: 50px;
-    top: 485px;
+    top: 515px;
     position: absolute;
     background: #4aaaa6;
     color: white;
-    padding: 5px 57px;
+    padding: 5px 94.5px
 }
 
 #rutgers{
-    left: 275px;
+    left: 370px;
     position: absolute;
-    top: 485px;
+    top: 510px;
     background: #4aaaa6;
     color: white;
-    padding: 5px 29px;
+    padding: 5px 66.5px;
+}
+
+#rps{
+    position: absolute;
+    left: 50px;
+    padding: 5px 63.5px;
+    background: #4aaaa6;
+    color: white;
+    bottom: 55px;
 }
