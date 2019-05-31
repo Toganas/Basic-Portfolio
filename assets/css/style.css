@@ -70,12 +70,7 @@ body{
     border-bottom: 2px #d7d7d7 solid;
     margin-bottom: 20px;
     height:69.5px;
-}
-
-.boxes{
-    width: 960px;
-    margin: 0 auto;
-}
+    }
 
 .portfolio{
     float: right;
@@ -155,7 +150,10 @@ body{
 /* portfolio page */
 
 .boxes {
-    text-align: center;
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    position:relative;
 }
 
 .absolute {
@@ -165,4 +163,24 @@ body{
     border: 1px solid #FFD8D6;
     position:absolute;
     align:center;
+}
+
+/* portfolio images */
+
+#pic1{
+    left: 50px;
+    position: absolute;
+}
+
+
+/* portfolio picture text */
+
+#hangman{
+    z-index: 500000;
+    left: 50px;
+    top: 260px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 65px;
 }
