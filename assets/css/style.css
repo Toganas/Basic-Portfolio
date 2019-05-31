@@ -123,6 +123,7 @@ body{
     width: 200px;
     height: 251px;
     margin-left: 49px;
+    margin-top: 5px;
 }
 
 .bio {
@@ -132,6 +133,7 @@ body{
     max-width: 865px;
     color: #c3bbc4;
     font-weight:bold;
+    margin-bottom:25px;
 }
 
 #third {
