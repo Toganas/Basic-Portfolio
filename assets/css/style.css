@@ -12,6 +12,7 @@ body{
     margin: 0;
     padding: 0;
     color: #777777;
+    line-height:1.5;
 }
 
 .bottom{
@@ -41,10 +42,6 @@ body{
     border: 1px solid #FFD8D6;
 }
 
-#headshot{
-    width: 200px;
-}
-
 /* box around text and pictures */
 
 .title {
@@ -55,8 +52,9 @@ body{
 .divider {
     border: 2px solid #dedede;
     width: 90%;
-    margin: 0 auto;
-}
+    margin-bottom: 20px;
+    margin-left: 5%
+   }
 
 /* Links at top of page */
 
@@ -96,8 +94,9 @@ body{
     padding:10px 25px 0px 25px;
         }
 
+/* form and button on contact page */
+
 .form {
-    margin-top: 20px;
     margin-left: 48px;
     }
 
@@ -109,3 +108,39 @@ body{
     padding: 5px 15px;
     color: white;
     }
+
+/* index page top */
+
+#teddy {
+    float: left;
+    background-color: #4aaaa6;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    width: 300px;
+}
+
+#space {
+    background-color: #ffffff;
+    border-bottom: 2px #d7d7d7 solid;
+    margin-bottom: 20px;
+    height:78.5px;
+}
+
+/* index page bio */
+
+#headshot{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 251px;
+    margin-left: 49px;
+}
+
+.bio {
+    float:left;
+    line-height: 1.8;
+    position:relative;
+    margin-left: 15px;
+}
