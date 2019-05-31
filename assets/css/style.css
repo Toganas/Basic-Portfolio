@@ -15,15 +15,7 @@ body{
     line-height:1.5;
 }
 
-.bottom{
-    border-top: 8px solid #4aaaa5;
-    background: #666666;
-    color: #b3a398;
-    font-size:12px;
-    padding-top:38px;
-    text-align: center;
-    height: 50px;
-    }
+
 
 .name{
     float: left;
@@ -243,4 +235,20 @@ body{
     background: #4aaaa6;
     color: white;
     bottom: 55px;
-}
+    }
+
+/* sticky footer */
+
+.bottom{
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    color: #b3a398;
+    font-size:12px;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    z-index:9999;
+    }
