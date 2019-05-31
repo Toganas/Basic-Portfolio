@@ -248,12 +248,8 @@ body{
     font-size:12px;
     text-align: center;
     height: 50px;
-    /* position: fixed; */
-    /* left:0; */
-    /* bottom:0; */
     width: 100%;
-    /* z-index:9999; */
-    }
+       }
 
     /* Another attempt at a sticky footer */
 
