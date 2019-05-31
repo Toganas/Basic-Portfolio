@@ -70,16 +70,28 @@ body{
     border-left: 2px #f5f5f5 solid;
 }
 
+.portfolio:hover{
+    color: #FFD4D8;
+}
+
 .contact{
     float: right;
     padding:10px 0px 0px 25px;
     border-left: 2px #f5f5f5 solid;
 }
 
+.contact:hover{
+    color: #FFD4D8;
+}
+
 .about{
     float: right;
     padding:10px 25px 0px 25px;
         }
+
+.about:hover{
+    color: #FFD4D8;
+}
 
 /* form and button on contact page */
 
@@ -95,6 +107,11 @@ body{
     padding: 5px 15px;
     color: white;
     }
+
+#submit:hover {
+    background:#1C403E;
+    color:gray;
+}
 
 /* index page top */
 
@@ -253,25 +270,25 @@ body{
 
     /* Another attempt at a sticky footer */
 
-    html, body {
+html, body {
         height:100%
     }
     
-    body {
+body {
     display: flex;
     flex-direction:column
     }
     
-    .pizza { flex: 1 0 auto}
-    .bottom {
+.pizza { 
+    flex: 1 0 auto
+}
+.bottom {
         flex-shrink:0;
         margin-top: 25px;
-    }
+}
 
-    .content {
+.content {
         height: 850px;
         margin-bottom: 25px;
-    }
-
-
+}
     
