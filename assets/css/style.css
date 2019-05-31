@@ -262,13 +262,12 @@ body{
     flex-direction:column
     }
     
-    .container { flex: 1 0 auto}
+    .pizza { flex: 1 0 auto}
     .bottom {
         flex-shrink:0;
+        margin-top: 25px;
     }
 
-    .content {
-        height: 850px;
-        margin-bottom: 25px;
-    }
+
+
     
