@@ -162,8 +162,7 @@ body{
     background-color: #ffffff;
     border: 1px solid #FFD8D6;
     position:absolute;
-    align:center;
-}
+    }
 
 /* portfolio images */
 
@@ -172,6 +171,10 @@ body{
     position: absolute;
 }
 
+#pic2{
+    left: 275px;
+    position: absolute;
+}
 
 /* portfolio picture text */
 
@@ -182,5 +185,15 @@ body{
     position: absolute;
     background: #4aaaa6;
     color: white;
-    padding: 5px 65px;
+    padding: 5px 65.5px;
+}
+
+#rpg{
+    z-index: 500000;
+    left: 275px;
+    top: 260px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 59px;
 }
