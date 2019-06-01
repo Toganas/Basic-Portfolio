@@ -291,4 +291,9 @@ body {
         height: 850px;
         margin-bottom: 25px;
 }
-    
+    /* screwing around with hover on images */
+
+img:hover {
+    outline: 5px solid #4aaaa6;
+    outline-offset: 10px;
+}
