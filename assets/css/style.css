@@ -276,11 +276,11 @@ html, body {
     
 body {
     display: flex;
-    flex-direction:column
+    flex-direction:column;
     }
     
 .pizza { 
-    flex: 1 0 auto
+    flex: 1 0 auto;
 }
 .bottom {
         flex-shrink:0;
