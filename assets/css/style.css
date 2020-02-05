@@ -297,3 +297,15 @@ img:hover {
     outline: 5px solid #4aaaa6;
     outline-offset: 10px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    float: right;
+}
+
+span {
+    float: right;
+}
